@@ -96,7 +96,7 @@
       8. Jaccard 
     */
 
-    require_once 'C:\Users\admin\vendor\autoload.php';
+    require __DIR__.'/../vendor/autoload.php';
     use Phpoffice\PhpSpreadsheet\Spreadsheet;
     use Phpoffice\phpspreadsheet\Writer\Xlsx;
 
